@@ -26,7 +26,7 @@ public class MainServer {
     }
 
     public static void main(String[] args) {
-        PongServer server = new PongServer();
+        MainServer server = new MainServer();
         try {
             server.startServer(9090);
         } catch (IOException e) {
